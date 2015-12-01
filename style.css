@@ -30,7 +30,7 @@ body, html {
 }
 
 .container-citation {
-margin-top: 220px;
+  margin-top: 220px;
 }
 
 .citation {
@@ -93,36 +93,27 @@ margin-top: 220px;
 .simplon {
   position: relative;
   width: 70%;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-.logo-simplon {
-  position: absolute;
-  top: -100%;
-  left: 44%;
-  background-image: url("http://static1.squarespace.com/static/523ee688e4b0534df7deb0be/t/53a2c01ce4b0ccf77817e2af/1403174941911/enseigne-couleur.png");
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  background-size: 150px 100px;
-  -webkit-shape-outside: circle();
+
+h1 {
+  text-align: left;
+  font-size: 30px;
+  font-family: fantasy;
 }
-.col1 {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 40%;
+
+.element {
+  shape-outside: circle(40%);
+ width: 60%;
+ height: 30%;
+ float:left;
+ margin-right: 20px;
+ margin-left: auto;
 }
-.col2 {
-  top: 0;
-  right: 0;
-  position: absolute;
-  width: 40%;
-}
+
 p {
   text-align: justify;
   font-size: 20px;
