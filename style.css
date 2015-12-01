@@ -1,42 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Caveat);
+
 /* body */
 
-        img {
-          max-width: 100%;
-        }
-        body, html {
-          clear: both;
-          margin: 0px;
-          padding: 0px;
-          width: 100%;
-        }
-        .no-padding > [class*='col-'] {
-          padding-right: 0;
-          padding-left: 0;
-        }
-        .no-margin > [class*='col-'] {
-          margin-right: 0;
-          margin-left: 0;
-        }
-        /* header */
+img {
+  max-width: 100%;
+}
+body, html {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.no-padding > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.no-margin > [class*='col-'] {
+  margin-right: 0;
+  margin-left: 0;
+}
 
-        .logo {
-          margin-top: -170px;
-          margin-left: 20px;
-          height: 240px;
-          width: 239px;
-        }
-        /* Citation de groupe */
-
-        .container-citation {
-          margin-top: 220px;
-        }
-
-
+/* header */
 
 /*  Photo fun  Avec parallaxe   */
-
-
 
 section.module.parallax {
   height: 600px;
@@ -45,496 +31,502 @@ section.module.parallax {
   background-attachment: fixed;
   background-size: cover;
 }
-
 section.module.parallax-1 {
   background-image: url("http://teambuilding.com.au/wp-content/uploads/2013/09/what-they-say.jpg");
 }
 
-.fun h2{
-    text-align: center;
-    font-size: 800%;
-    font-family: 'Caveat', cursive;
-    padding-top: 20%;
-    text-shadow: 3px 3px white;
-
+.fun h2 {
+  text-align: center;
+  font-size: 800%;
+  font-family: 'Caveat', cursive;
+  padding-top: 20%;
+  text-shadow: 3px 3px white;
 }
 
+/* Citation de groupe */
 
+.parallax-2{
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("images/pattern.png");
+}
 
-/* citation */
+p.citation {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 200px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+}
 
-        .citation {
-          margin-left: 150px;
-          margin-right: 150px;
-          text-align: center;
-          font-family: 'Caveat', cursive;
-          font-size: 50px;
-        }
-        .signature {
-          margin-bottom: 220px;
-          margin-right: 90px;
-          color: red;
-          margin-top: 30;
-          text-align: right;
-          font-family: 'Caveat', cursive;
-          font-size: 30px;
-        }
-        /* citation individuelle */
+.signature {
+  margin-bottom: 220px;
+  margin-right: 90px;
+  color: red;
+  margin-top: 30;
+  text-align: right;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
 
-        .row {
-          width: 100%;
-          height: 50%;
-        }
-        .container-citation-ind {
-          text-align: center;
-          margin-left: auto;
-          margin-right: auto;
-          width: 100%;
-          background-color: black;
-        }
-        .container-citation-ind img {
-          margin: 0px auto;
-          width: auto;
-          height: 340px;
-        }
-        .img-responsive {
-          border: 5px solid black;
-          box-sizing: border-box;
-        }
-        .citation-text {
-          background-color: black;
-          height: 340px;
-          vertical-align: middle;
-          display: inline-block;
-        }
-        .cit {
-          margin-top: 130px;
-          color: white;
-          font-size: 32px;
-          font-family: 'Caveat', cursive;
-          text-align: center;
-        }
-        /* formation Simplon */
+/* citation individuelle */
 
-        .container-simplon {
-          width: 100%;
-          height: 750px;
-          background-color: white;
-          text-align: center;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        .simplon {
-          position: relative;
-          width: 70%;
-          margin-top: 100px;
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-        }
-        h1 {
-          text-align: left;
-          font-size: 30px;
-          font-family: fantasy;
-        }
-        .element {
-          shape-outside: circle(40%);
-          width: 60%;
-          height: 30%;
-          float: left;
-          margin-right: 20px;
-          margin-left: auto;
-        }
-        .formation {
-          text-align: justify;
-          font-size: 20px;
-          font-family: fantasy;
-          color: black;
-        }
+.row {
+  width: 100%;
+  height: 50%;
+}
+.container-citation-ind {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: black;
+}
+.container-citation-ind img {
+  margin: 0px auto;
+  width: auto;
+  height: 340px;
+}
+.img-responsive {
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+.citation-text {
+  background-color: black;
+  height: 340px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.cit {
+  margin-top: 130px;
+  color: white;
+  font-size: 32px;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+}
 
-        /* photo de groupe cliquable*/
+/* formation Simplon */
 
+.container-simplon {
+  width: 100%;
+  height: 750px;
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.simplon {
+  position: relative;
+  width: 70%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+h1 {
+  text-align: left;
+  font-size: 30px;
+  font-family: fantasy;
+}
+.element {
+  shape-outside: circle(40%);
+  width: 60%;
+  height: 30%;
+  float: left;
+  margin-right: 20px;
+  margin-left: auto;
+}
+.formation {
+  text-align: justify;
+  font-size: 20px;
+  font-family: fantasy;
+  color: black;
+}
 
-        #groupe {
-          height: 500px;
-        }
-        .group-photo {
-          background-image: url("https://www.merchantsgroup.com/images/GroupPic.jpg");
-          background-repeat: no-repeat;
-          background-size: cover;
-          position: relative;
-          height: 100%;
-        }
-        .click-karine {
-          position: absolute;
-          top: 20%;
-          left: 10%;
-          width: 30%;
-          height: 30%;
-        }
-        .click-bruno {
-          position: absolute;
-          top: 20%;
-          left: 30%;
-          width: 30%;
-          height: 30%;
-        }
-        .click-simon {
-          position: absolute;
-          top: 20%;
-          left: 50%;
-          width: 30%;
-          height: 30%;
-        }
-        .click-juliette {
-          position: absolute;
-          top: 20%;
-          left: 70%;
-          width: 30%;
-          height: 30%;
-        }
+/* photo de groupe cliquable*/
 
-        /* photo polaroid */
+#groupe {
+  height: 500px;
+}
+.group-photo {
+  background-image: url("https://www.merchantsgroup.com/images/GroupPic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+.click-karine {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 30%;
+  height: 30%;
+}
+.click-bruno {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 30%;
+  height: 30%;
+}
+.click-simon {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 30%;
+  height: 30%;
+}
+.click-juliette {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  width: 30%;
+  height: 30%;
+}
 
-        .polaroid-fond {
-          width: 100%;
-          background-color: black;
-        }
-        .polaroid-cont {
-          width: 75%;
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-        }
-        #pola {
-          width: 100%;
-        }
-        .polaroid-fond {
-          width: 100%;
-          background-color: black;
-        }
-        .polaroid-cont {
-          width: 55%;
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-        }
-        .calli {
-          position: absolute;
-          top: 78%;
-          left: 25%;
-          font-size: 60px;
-          transform: rotate(-10deg);
-          writing-mode: tb-rl;
-          font-family: 'Caveat', cursive;
-          color: red;
-        }
-        .juliette-photo {
-          width: 100%;
-          height: 400px;
-          border: 5px solid white;
-          border-bottom: 50px solid white;
-          margin: 10px;
-          background-image: url("http://www.wartmag.com/img/2009/mars/pho.jpg");
-          background-size: 300px 400px;
-          background-repeat: no-repeat;
-        }
-        .juliette-photo:hover {
-          background-image: url("http://vanimg.s3.amazonaws.com/portrait-16.jpg");
-        }
-        .simon-photo {
-          width: 100%;
-          height: 400px;
-          border: 5px solid white;
-          border-bottom: 50px solid white;
-          margin: 10px;
-          background-image: url("http://vanimg.s3.amazonaws.com/portrait-16.jpg");
-          background-size: 300px 400px;
-          background-repeat: no-repeat;
-        }
-        .simon-photo:hover {
-          background-image: url("http://www.wartmag.com/img/2009/mars/pho.jpg");
-        }
-        .bruno-photo {
-          width: 100%;
-          height: 400px;
-          border: 5px solid white;
-          border-bottom: 50px solid white;
-          margin: 10px;
-          background-image: url("http://vanimg.s3.amazonaws.com/portrait-16.jpg");
-          background-size: 300px 400px;
-          background-repeat: no-repeat;
-        }
-        .bruno-photo:hover {
-          background-image: url("http://www.wartmag.com/img/2009/mars/pho.jpg");
-        }
-        .karine-photo {
-          width: 100%;
-          height: 400px;
-          border: 5px solid white;
-          border-bottom: 50px solid white;
-          margin: 10px;
-          background-image: url("http://www.wartmag.com/img/2009/mars/pho.jpg");
-          background-size: 300px 400px;
-          background-repeat: no-repeat;
-        }
-        .karine-photo:hover {
-          background-image: url("http://vanimg.s3.amazonaws.com/portrait-16.jpg");
-        }
-        @media screen and (min-width: 991px) {
-          .juliette:hover .juliette-descr {
-            display: block;
-            visibility: visible;
-            position: absolute;
-            top: 0;
-            left: 102%;
-            background-color: rgba(255, 255, 255, 0.7);
-            height: 100%;
-            width: 100%;
-            color: black;
-            padding: 10px;
-            text-align: justify;
-            z-index: 2;
-          }
-          .juliette:hover .juliette-descr::before {
-            content: "";
-            position: absolute;
-            top: 10%;
-            left: 0px;
-            margin-left: -8px;
-            border-top: 8px solid transparent;
-            border-right: 8px solid rgba(255, 255, 255, 0.7);
-            border-bottom: 8px solid transparent;
-            z-index: 2;
-          }
-          .simon:hover .simon-descr {
-            display: block;
-            visibility: visible;
-            position: absolute;
-            top: 0;
-            right: 101%;
-            background-color: rgba(255, 255, 255, 0.7);
-            height: 100%;
-            width: 100%;
-            color: black;
-            padding: 10px;
-            text-align: justify;
-            z-index: 2;
-          }
-          .simon:hover .simon-descr::before {
-            content: "";
-            position: absolute;
-            top: 10%;
-            right: 0px;
-            margin-right: -8px;
-            border-top: 8px solid transparent;
-            border-left: 8px solid rgba(255, 255, 255, 0.7);
-            border-bottom: 8px solid transparent;
-          }
-          .bruno:hover .bruno-descr {
-            display: block;
-            visibility: visible;
-            position: absolute;
-            top: 0;
-            left: 102%;
-            background-color: rgba(255, 255, 255, 0.7);
-            height: 100%;
-            width: 100%;
-            color: black;
-            padding: 10px;
-            text-align: justify;
-            z-index: 2;
-          }
-          .bruno:hover .bruno-descr::before {
-            content: "";
-            position: absolute;
-            top: 10%;
-            left: 0px;
-            margin-left: -8px;
-            border-top: 8px solid transparent;
-            border-right: 8px solid rgba(255, 255, 255, 0.7);
-            border-bottom: 8px solid transparent;
-            z-index: 2;
-          }
-          .karine:hover .karine-descr {
-            display: block;
-            visibility: visible;
-            position: absolute;
-            top: 0;
-            right: 101%;
-            background-color: rgba(255, 255, 255, 0.7);
-            height: 100%;
-            width: 100%;
-            color: black;
-            padding: 10px;
-            text-align: justify;
-            z-index: 2;
-          }
-          .karine:hover .karine-descr::before {
-            content: "";
-            position: absolute;
-            top: 10%;
-            right: 0px;
-            margin-right: -8px;
-            border-top: 8px solid transparent;
-            border-left: 8px solid rgba(255, 255, 255, 0.7);
-            ;
-            border-bottom: 8px solid transparent;
-          }
-        }
-        @media screen and (max-width: 991px) {
-          .juliette:hover .juliette-descr {
-            display: block;
-            visibility: visible;
-            position: absolute;
-            top: 0;
-            left: 0%;
-            background-color: rgba(255, 255, 255, 0.7);
-            height: 100%;
-            width: 100%;
-            color: black;
-            padding: 10px;
-            text-align: justify;
-            z-index: 2;
-          }
-          .simon:hover .simon-descr {
-            display: block;
-            visibility: visible;
-            position: absolute;
-            top: 0;
-            right: 0%;
-            background-color: rgba(255, 255, 255, 0.7);
-            height: 100%;
-            width: 100%;
-            color: black;
-            padding: 10px;
-            text-align: justify;
-            z-index: 2;
-          }
-          .bruno:hover .bruno-descr {
-            display: block;
-            visibility: visible;
-            position: absolute;
-            top: 0;
-            left: 0%;
-            background-color: rgba(255, 255, 255, 0.7);
-            height: 100%;
-            width: 100%;
-            color: black;
-            padding: 10px;
-            text-align: justify;
-            z-index: 2;
-          }
-          .karine:hover .karine-descr {
-            display: block;
-            visibility: visible;
-            position: absolute;
-            top: 0;
-            right: 0%;
-            background-color: rgba(255, 255, 255, 0.7);
-            height: 100%;
-            width: 100%;
-            color: black;
-            padding: 10px;
-            text-align: justify;
-            z-index: 2;
-          }
-        }
-        .juliette > span {
-          display: none;
-          visibility: hidden;
-        }
-        .simon > span {
-          display: none;
-          visibility: hidden;
-        }
-        .bruno > span {
-          display: none;
-          visibility: hidden;
-        }
-        .karine > span {
-          display: none;
-          visibility: hidden;
-        }
-        /* footer */
+/* photo polaroid */
 
-
-        footer {
-          width: 100%;
-          background-color: black;
-        }
-
+.polaroid-fond {
+  width: 100%;
+  background-color: black;
+}
+.polaroid-cont {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#pola {
+  width: 100%;
+}
+.polaroid-fond {
+  width: 100%;
+  background-color: black;
+}
+.polaroid-cont {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.calli {
+  position: absolute;
+  top: 78%;
+  left: 25%;
+  font-size: 60px;
+  transform: rotate(-10deg);
+  writing-mode: tb-rl;
+  font-family: 'Caveat', cursive;
+  color: red;
+}
+.juliette-photo {
+  width: 100%;
+  height: 400px;
+  border: 5px solid white;
+  border-bottom: 50px solid white;
+  margin: 10px;
+  background-image: url("http://www.wartmag.com/img/2009/mars/pho.jpg");
+  background-size: 300px 400px;
+  background-repeat: no-repeat;
+}
+.juliette-photo:hover {
+  background-image: url("http://vanimg.s3.amazonaws.com/portrait-16.jpg");
+}
+.simon-photo {
+  width: 100%;
+  height: 400px;
+  border: 5px solid white;
+  border-bottom: 50px solid white;
+  margin: 10px;
+  background-image: url("http://vanimg.s3.amazonaws.com/portrait-16.jpg");
+  background-size: 300px 400px;
+  background-repeat: no-repeat;
+}
+.simon-photo:hover {
+  background-image: url("http://www.wartmag.com/img/2009/mars/pho.jpg");
+}
+.bruno-photo {
+  width: 100%;
+  height: 400px;
+  border: 5px solid white;
+  border-bottom: 50px solid white;
+  margin: 10px;
+  background-image: url("http://vanimg.s3.amazonaws.com/portrait-16.jpg");
+  background-size: 300px 400px;
+  background-repeat: no-repeat;
+}
+.bruno-photo:hover {
+  background-image: url("http://www.wartmag.com/img/2009/mars/pho.jpg");
+}
+.karine-photo {
+  width: 100%;
+  height: 400px;
+  border: 5px solid white;
+  border-bottom: 50px solid white;
+  margin: 10px;
+  background-image: url("http://www.wartmag.com/img/2009/mars/pho.jpg");
+  background-size: 300px 400px;
+  background-repeat: no-repeat;
+}
+.karine-photo:hover {
+  background-image: url("http://vanimg.s3.amazonaws.com/portrait-16.jpg");
+}
 @media screen and (min-width: 991px) {
-        footer .copyright {
-          text-align: center;
-          font-weight: bold;
-          font-size: 20px;
-          padding-bottom: 1.5%;
-          color: grey;
-        }
-        .reseau {
-          text-align: right;
-          position: relative;
-          top: 10px;
-          right: 0;
-          height: 30px;
-          padding: 2%;
-          margin-bottom: 10%;
-        }
-        .reseau >.glyphicon {
-          position: absolute;
-          top: 23px;
-          left: 50px;
-          color: white;
-          font-size: 20px;
-        }
-        .reseau a {
-          color: white;
-        }
-        .reseau > div {
-          height: 42px;
-          width: 42px;
-        }
-        .facebook {
-          position: absolute;
-          top: 23px;
-          right: 321px;
-        }
-        .google {
-          position: absolute;
-          top: 23px;
-          right: 273px;
-        }
-        .tumblr {
-          position: absolute;
-          top: 23px;
-          right: 221px;
-        }
-        .pinterest {
-          position: absolute;
-          top: 23px;
-          right: 173px;
-        }
-        .twitter {
-          position: absolute;
-          top: 23px;
-          right: 123px;
-        }
-        .reddit {
-          position: absolute;
-          top: 23px;
-          right: 73px;
-        }
-        .linkedin {
-          position: absolute;
-          top: 23px;
-          right: 21px;
-        }
-        .reseau > div:hover {
-          background-color: rgba(0, 0, 0, 0.5);
-        }
+  .juliette:hover .juliette-descr {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 102%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    z-index: 2;
+  }
+  .juliette:hover .juliette-descr::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    margin-left: -8px;
+    border-top: 8px solid transparent;
+    border-right: 8px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 8px solid transparent;
+    z-index: 2;
+  }
+  .simon:hover .simon-descr {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 101%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    z-index: 2;
+  }
+  .simon:hover .simon-descr::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    right: 0px;
+    margin-right: -8px;
+    border-top: 8px solid transparent;
+    border-left: 8px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 8px solid transparent;
+  }
+  .bruno:hover .bruno-descr {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 102%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    z-index: 2;
+  }
+  .bruno:hover .bruno-descr::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    margin-left: -8px;
+    border-top: 8px solid transparent;
+    border-right: 8px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 8px solid transparent;
+    z-index: 2;
+  }
+  .karine:hover .karine-descr {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 101%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    z-index: 2;
+  }
+  .karine:hover .karine-descr::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    right: 0px;
+    margin-right: -8px;
+    border-top: 8px solid transparent;
+    border-left: 8px solid rgba(255, 255, 255, 0.7);
+    ;
+    border-bottom: 8px solid transparent;
+  }
+}
+@media screen and (max-width: 991px) {
+  .juliette:hover .juliette-descr {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    z-index: 2;
+  }
+  .simon:hover .simon-descr {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    z-index: 2;
+  }
+  .bruno:hover .bruno-descr {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    z-index: 2;
+  }
+  .karine:hover .karine-descr {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    z-index: 2;
+  }
+}
+.juliette > span {
+  display: none;
+  visibility: hidden;
+}
+.simon > span {
+  display: none;
+  visibility: hidden;
+}
+.bruno > span {
+  display: none;
+  visibility: hidden;
+}
+.karine > span {
+  display: none;
+  visibility: hidden;
 }
 
+/* footer */
+
+footer {
+  width: 100%;
+  background-color: black;
+}
+@media screen and (min-width: 991px) {
+  footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 1.5%;
+    color: grey;
+  }
+  .reseau {
+    text-align: right;
+    position: relative;
+    top: 10px;
+    right: 0;
+    height: 30px;
+    padding: 2%;
+    margin-bottom: 10%;
+  }
+  .reseau >.glyphicon {
+    position: absolute;
+    top: 23px;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+  }
+  .reseau a {
+    color: white;
+  }
+  .reseau > div {
+    height: 42px;
+    width: 42px;
+  }
+  .facebook {
+    position: absolute;
+    top: 23px;
+    right: 321px;
+  }
+  .google {
+    position: absolute;
+    top: 23px;
+    right: 273px;
+  }
+  .tumblr {
+    position: absolute;
+    top: 23px;
+    right: 221px;
+  }
+  .pinterest {
+    position: absolute;
+    top: 23px;
+    right: 173px;
+  }
+  .twitter {
+    position: absolute;
+    top: 23px;
+    right: 123px;
+  }
+  .reddit {
+    position: absolute;
+    top: 23px;
+    right: 73px;
+  }
+  .linkedin {
+    position: absolute;
+    top: 23px;
+    right: 21px;
+  }
+  .reseau > div:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
 @media screen and (max-width: 991px) {
   footer .copyright {
     text-align: center;
@@ -559,7 +551,5 @@ section.module.parallax-1 {
   .reseau img {
     display: none;
     visibility: visible;
-
   }
-
 }
