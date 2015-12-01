@@ -1,6 +1,5 @@
         @import url(https://fonts.googleapis.com/css?family=Caveat);
-
-      /* body */
+        /* body */
 
         img {
           max-width: 100%;
@@ -11,7 +10,6 @@
           padding: 0px;
           width: 100%;
         }
-
         .no-padding > [class*='col-'] {
           padding-right: 0;
           padding-left: 0;
@@ -20,7 +18,6 @@
           margin-right: 0;
           margin-left: 0;
         }
-
         /* header */
 
         .logo {
@@ -29,7 +26,6 @@
           height: 240px;
           width: 239px;
         }
-
         /* Citation de groupe */
 
         .container-citation {
@@ -51,15 +47,12 @@
           font-family: 'Caveat', cursive;
           font-size: 30px;
         }
-
         /* citation individuelle */
-
 
         .row {
           width: 100%;
           height: 50%;
         }
-
         .container-citation-ind {
           text-align: center;
           margin-left: auto;
@@ -67,7 +60,6 @@
           width: 100%;
           background-color: black;
         }
-
         .container-citation-ind img {
           margin: 0px auto;
           width: auto;
@@ -91,9 +83,7 @@
           ;
           text-align: center;
         }
-
         /* formation Simplon */
-
 
         .container-simplon {
           width: 100%;
@@ -130,9 +120,7 @@
           font-family: fantasy;
           color: black;
         }
-
         /* photo polaroid */
-
 
         .polaroid-fond {
           width: 100%;
@@ -394,9 +382,7 @@
           display: none;
           visibility: hidden;
         }
-
         /* footer */
-
 
         footer {
           width: 100%;
