@@ -1,25 +1,143 @@
 /* Pour Juliette */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Pour Simon */
+
+
+/* Pour Karine */
+
+.polaroid-fond{
+width: 100%;
+background-color: black;
+
+}
+.polaroid-cont{
+width: 75%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+}
+.polaroid-cont img {
+  width: 100%;
+  border:  5px solid white;
+  border-bottom: 50px solid white;
+  margin: 10px;
+
+}
+.juliette:hover ~ .simon>.juliette-descr {
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  color: black;
+  padding:10px;
+  text-align: justify;
+}
+.juliette:hover ~ .simon>.juliette-descr::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 0px;
+  margin-left: -8px;
+  border-top:  8px solid transparent;
+  border-right:8px solid rgba(255, 255, 255, 0.7);;
+  border-bottom: 8px solid transparent;
+}
+
+
+.simon:hover ~ .juliette>.simon-descr {
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  right: 7px;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  color: black;
+  padding:10px;
+  text-align: justify;
+}
+
+.simon:hover img{
+
+}
+
+.simon:hover ~ .juliette>.simon-descr::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 0px;
+  margin-left: -8px;
+  border-top:  8px solid transparent;
+  border-right:8px solid rgba(255, 255, 255, 0.7);;
+  border-bottom: 8px solid transparent;
+}
+
+
+.bruno:hover ~ .karine>.bruno-descr {
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  color: black;
+  padding:10px;
+  text-align: justify;;
+}
+.bruno:hover ~ .karine>.bruno-descr::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 0px;
+  margin-left: -8px;
+  border-top:  8px solid transparent;
+  border-right:8px solid rgba(255, 255, 255, 0.7);;
+  border-bottom: 8px solid transparent;
+}
+
+.karine:hover ~ .bruno>.karine-descr {
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  right: 7px;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  color: black;
+  padding:10px;
+  text-align: justify;;
+}
+.karine:hover ~ .bruno>.karine-descr::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 0px;
+  margin-left: -8px;
+  border-top:  8px solid transparent;
+  border-right:8px solid rgba(255, 255, 255, 0.7);;
+  border-bottom: 8px solid transparent;
+}
+
+
+.juliette > span {
+  display: none;
+  visibility: hidden;
+}
+.simon > span {
+  display: none;
+  visibility: hidden;
+}
+.bruno > span {
+  display: none;
+  visibility: hidden;
+}
+.karine > span {
+  display: none;
+  visibility: hidden;
+}
