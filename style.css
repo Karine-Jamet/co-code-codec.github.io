@@ -123,6 +123,21 @@
           color: black;
         }
         /* Pour Simon */
+        #groupe {
+          height: 500px;
+        }
+        .group-photo {
+          background-image: url("https://www.merchantsgroup.com/images/GroupPic.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          height: 100%;
+        }
+        .group-photo > div {
+          position: absolute;
+          /* top: ;
+          left: ; */
+        }
         /* Pour Karine */
 
         .polaroid-fond {
