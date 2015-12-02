@@ -1,4 +1,51 @@
         @import url(https://fonts.googleapis.com/css?family=Caveat);
+
+        /* Pour Bruno */
+
+
+
+        .navbar-brand {
+          position: absolute;
+          width: 10%;
+          height: 80%;
+          margin-bottom: 5px;
+          float:left;
+
+        }
+        .logo {
+          width: 25%;
+          height: 25%;
+          float:left;
+
+        }
+
+
+        .team-name img {
+        position:relative;
+        float:right;
+        width: 50%;
+        height: 75%;
+        }
+
+
+
+
+
+
+
+
+        #haut-page {
+            background: url(images/intro.png) 50% 0 fixed;
+            height: 100%;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 0% 0;
+          }
+
+
+
         /* Pour Juliette */
 
         img {
@@ -10,12 +57,7 @@
           padding: 0px;
           width: 100%;
         }
-        .logo {
-          margin-top: -170px;
-          margin-left: 20px;
-          height: 240px;
-          width: 239px;
-        }
+
         .no-padding > [class*='col-'] {
           padding-right: 0;
           padding-left: 0;
