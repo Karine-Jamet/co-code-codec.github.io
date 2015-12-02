@@ -67,7 +67,10 @@
           width: 100%;
           background-color: black;
         }
+
         .container-citation-ind img {
+          margin: 0px auto;
+          width: auto;
           height: 340px;
         }
         .img-responsive {
