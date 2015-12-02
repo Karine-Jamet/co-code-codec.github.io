@@ -1,45 +1,86 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+
 <head>
+
   <meta charset="utf-8">
+
   <meta name="code-code-codec" content="site de la team code-co-codec">
+
   <title>co-code-codec</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="style.css" />
+
   <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet' type='text/css'>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <!-- body -->
 
+
+<body>
+
+
   <!-- header -->
 
   <header>
-    <div class="logo">
-    </div>
-    <div class="team-name">
-    </div>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+    <!-- navbar à paufiné -->
+    <nav class="navbar navbar-inverse  navbar-fixed-top" role="banner">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+
+
+          <a class="navbar-brand" href="index.html">
+          <img src="./images/co-code-codec-logo.png" alt="logo">
+          </a>
+
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li><a href=""> 1</a></li>
-            <li><a href=""> 2</a></li>
-            <li><a href=""> 3</a></li>
-            <li><a href=""> 4</a></li>
+            <li class="active"><a href="#1">Acceuil</a></li>
+            <li><a href="#2">Présentation</a></li>
+            <li><a href="#3">La team</a></li>
+            <li><a href="#4">Citation</a></li>
+            <li><a href="#5">Simplon</a></li>
           </ul>
+          </li>
         </div>
       </div>
+      <!--/.container-->
     </nav>
+    <!--/nav-->
   </header>
+
+  <!-- Logo et nom du site-->
+
+  <!--<section id="Logo" data-speed="6" data-type="background">
+    <div class="container">
+      <div class="logo">
+    <img src="./images/co-code-codec-logo.png">
+  </div>
+  <div class="team-name">
+    <img src="https://trerobotics.files.wordpress.com/2011/06/hinameis1.jpg">
+  </div>
+</div>
+</section> <-->
 
 
   <!-- Photo de groupe cliquable -->
@@ -102,15 +143,25 @@
           <div id="juliette" class="col-md-6 col-sm-12 juliette">
             <div class="juliette-photo"></div>
             <div class="calli">Juliette</div>
-            <span class="juliette-descr">Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis
-              undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+            <span class="juliette-descr">
+              <p>Nom : ...</p>
+              <p>Prenom: Juliette</p>
+              <p>Age : ...</p>
+              <p>Spécialités : ...</p>
+              <p>Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis
+              undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.</p>
             </span>
           </div>
           <div id="simon" class="col-md-6 col-sm-12 simon">
             <div class="simon-photo"></div>
             <div class="calli">Simon</div>
-            <span class="simon-descr">Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis
-              undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+            <span class="simon-descr">
+              <p>Nom : ...</p>
+              <p>Prenom: Simon</p>
+              <p>Age : ...</p>
+              <p>Spécialités : ...</p>
+              <p>Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis
+              undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.</p>
             </span>
           </div>
         </div>
@@ -118,16 +169,28 @@
           <div id="bruno" class="col-md-6 col-sm-12 bruno">
             <div class="bruno-photo"></div>
             <div class="calli">Bruno</div>
-            <span class="bruno-descr">Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis
-              undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+            <span class="bruno-descr">
+              <p>Nom : ...</p>
+              <p>Prenom: Bruno</p>
+              <p>Age : ...</p>
+              <p>Spécialités : ...</p>
+              <p>
+              Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis
+              undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.</p>
             </span>
           </div>
 
           <div id="karine" class="col-md-6 col-sm-12 karine">
             <div class="karine-photo"></div>
             <div class="calli">Karine</div>
-            <span class="karine-descr">Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis
-              undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+            <span class="karine-descr">
+              <p>Nom : Jamet</p>
+              <p>Prenom: Karine</p>
+              <p>Age : 30 ans</p>
+              <p>Spécialités : Css, Anglais et Tarte tatin </p>
+              <p>Après un master de bioinformatique, un stage en allemagne, un passage d'un an a strasbourg et de 3 ans a nice, je pose mes valise a marseille pour la formation Simplon Mars. </p>
+              <p>Ayant toujours aimé le web design et la programation je retouve mes amours d'adolescence avec javascript et css.</p>
+              <p>Ouverte d'esprit, curieuse mais pragmatique, l'esprit d'équipe et très important pour moi, j'espere être un atout pour ma team.</p>
             </span>
           </div>
         </div>
