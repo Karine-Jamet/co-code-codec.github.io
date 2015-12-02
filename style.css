@@ -1,5 +1,5 @@
         @import url(https://fonts.googleapis.com/css?family=Caveat);
-        /* Pour Juliette */
+        /* body */
 
         img {
           max-width: 100%;
@@ -10,12 +10,6 @@
           padding: 0px;
           width: 100%;
         }
-        .logo {
-          margin-top: -170px;
-          margin-left: 20px;
-          height: 240px;
-          width: 239px;
-        }
         .no-padding > [class*='col-'] {
           padding-right: 0;
           padding-left: 0;
@@ -24,6 +18,16 @@
           margin-right: 0;
           margin-left: 0;
         }
+        /* header */
+
+        .logo {
+          margin-top: -170px;
+          margin-left: 20px;
+          height: 240px;
+          width: 239px;
+        }
+        /* Citation de groupe */
+
         .container-citation {
           margin-top: 220px;
         }
@@ -75,6 +79,8 @@ section.module.parallax-1 {
           font-family: 'Caveat', cursive;
           font-size: 30px;
         }
+        /* citation individuelle */
+
         .row {
           width: 100%;
           height: 50%;
@@ -87,6 +93,8 @@ section.module.parallax-1 {
           background-color: black;
         }
         .container-citation-ind img {
+          margin: 0px auto;
+          width: auto;
           height: 340px;
         }
         .img-responsive {
@@ -106,6 +114,8 @@ section.module.parallax-1 {
           font-family: 'Caveat', cursive;
           text-align: center;
         }
+        /* formation Simplon */
+
         .container-simplon {
           width: 100%;
           height: 750px;
@@ -117,44 +127,51 @@ section.module.parallax-1 {
         .simplon {
           position: relative;
           width: 70%;
+          margin-top: 100px;
           margin-left: auto;
           margin-right: auto;
           text-align: center;
         }
-        .logo-simplon {
-          position: absolute;
-          top: -100%;
-          left: 44%;
-          background-image: url("http://static1.squarespace.com/static/523ee688e4b0534df7deb0be/t/53a2c01ce4b0ccf77817e2af/1403174941911/enseigne-couleur.png");
-          background-repeat: no-repeat;
-          background-position: 50%;
-          border-radius: 50%;
-          width: 100px;
-          height: 100px;
-          overflow: hidden;
-          background-size: 150px 100px;
-          -webkit-shape-outside: circle();
+        h1 {
+          text-align: left;
+          font-size: 30px;
+          font-family: fantasy;
         }
-        .col1 {
-          top: 0;
-          left: 0;
-          position: absolute;
-          width: 40%;
+        .element {
+          shape-outside: circle(40%);
+          width: 60%;
+          height: 30%;
+          float: left;
+          margin-right: 20px;
+          margin-left: auto;
         }
-        .col2 {
-          top: 0;
-          right: 0;
-          position: absolute;
-          width: 40%;
-        }
-        section p {
+        .formation {
           text-align: justify;
           font-size: 20px;
           font-family: fantasy;
           color: black;
         }
-        /* Pour Simon */
-        /* Pour Karine */
+
+        /* photo de groupe cliquable*/
+
+
+        #groupe {
+          height: 500px;
+        }
+        .group-photo {
+          background-image: url("https://www.merchantsgroup.com/images/GroupPic.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          height: 100%;
+        }
+        .group-photo > div {
+          position: absolute;
+          /* top: ;
+          left: ; */
+        }
+
+        /* photo polaroid */
 
         .polaroid-fond {
           width: 100%;
@@ -416,7 +433,7 @@ section.module.parallax-1 {
           display: none;
           visibility: hidden;
         }
-        /*         Footer             */
+        /* footer */
 
 
         footer {
