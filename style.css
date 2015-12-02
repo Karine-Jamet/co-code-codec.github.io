@@ -27,6 +27,38 @@
         .container-citation {
           margin-top: 220px;
         }
+
+
+
+/*  Photo fun  Avec parallaxe   */
+
+
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-1 {
+  background-image: url("http://teambuilding.com.au/wp-content/uploads/2013/09/what-they-say.jpg");
+}
+
+.fun h2{
+    text-align: center;
+    font-size: 800%;
+    font-family: 'Caveat', cursive;
+    padding-top: 20%;
+    text-shadow: 3px 3px white;
+
+}
+
+
+
+/* citation */
+
         .citation {
           margin-left: 150px;
           margin-right: 150px;
@@ -72,7 +104,6 @@
           color: white;
           font-size: 32px;
           font-family: 'Caveat', cursive;
-          ;
           text-align: center;
         }
         .container-simplon {
@@ -387,10 +418,13 @@
         }
         /*         Footer             */
 
+
         footer {
           width: 100%;
           background-color: black;
         }
+
+@media screen and (min-width: 991px) {
         footer .copyright {
           text-align: center;
           font-weight: bold;
@@ -459,3 +493,33 @@
         .reseau > div:hover {
           background-color: rgba(0, 0, 0, 0.5);
         }
+}
+
+@media screen and (max-width: 991px) {
+  footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1%;
+    color: grey;
+  }
+  .reseau {
+    text-align: right;
+    height: 30px;
+    padding: 2%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  .reseau >.glyphicon {
+    color: white;
+    font-size: 20px;
+  }
+  .reseau a {
+    color: white;
+  }
+  .reseau img {
+    display: none;
+    visibility: visible;
+
+  }
+
+}
