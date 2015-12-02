@@ -1,40 +1,38 @@
 <!DOCTYPE html>
-
+<html lang="fr">
 <head>
-
   <meta charset="utf-8">
-
   <meta name="code-code-codec" content="site de la team code-co-codec">
-
   <title>co-code-codec</title>
-
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" type="text/css" href="style.css" />
-
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+<!-- body -->
+
 <body>
+  <div class="container-citation">
+    <div class="citation">
+      <p></p>
+    </div>
+    <div class="citation-ind">
+    </div>
+  </div>
+
+  <!-- header -->
+
   <header>
-
-    <!--logo et nom du site-->
-
+    <div class="container-photo-groupe">
+      <img/>
+    </div>
     <div class="logo">
-      <img src="http://www.lezebre.lu/images/Sticker_FFF_2.png">
+      <img src="./images/co-code-codec-logo.png">
     </div>
     <div class="team-name">
       <img src="https://trerobotics.files.wordpress.com/2011/06/hinameis1.jpg">
     </div>
-
-
-
-    <!-- navbar à paufiné -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -57,10 +55,8 @@
     </nav>
   </header>
 
-  <!--<div class="container">-->
 
-
-  <!--photo de groupe-->
+  <!-- Photo de groupe cliquable -->
 
   <section id="groupe" data-speed="6" data-type="background">
     <div class="container">
@@ -76,9 +72,7 @@
     </div>
   </section>
 
-
-
-  <!--texte team-->
+  <!-- Texte team -->
   <section id="texte-team" data-speed="4" data-type="background">
     <div class="container">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -137,60 +131,75 @@
     </div>
   </section>
 
+  <!-- Citation de groupe -->
+
   <div class="container-citation">
-    <div class="citation">
-      <p></p>
-    </div>
-    <div class="citation-ind">
-    </div>
+    <p class="citation">“Je chante pour mon vallon en souhaitant que dans chaque vallon un coq en fasse autant.”</p>
+    <p class="signature">Edmond Rostand</p>
   </div>
 
+  <!-- Citation individuelle -->
 
-  <!--           Les photos avec citations           -->
-
-
-  <div class="container-citation-ind">
-    <div class="row">
+  <div class="container-fluid container-citation-ind">
+    <div class="row no-padding no-margin ">
       <div class="col-md-3 photo-ind-cit">
+        <img class=img-responsive src="./images/test1.png" style=width:100% />
       </div>
-      <div class=" col-md-3 citation-text">
+      <div class="col-md-3 citation-text">
+        <p class="cit">"La vie c'est comme une boite de chocolats."</p>
       </div>
-      <div class=" col-md-3 photo-ind-cit">
+      <div class="col-md-3 photo-ind-cit">
+        <img class=img-responsive src="./images/test2.png" style=width:100% />
       </div>
-      <div class="col-md-3citation-text">
+      <div class="col-md-3 citation-text">
+        <p class="cit">"J'aime croquer la vie à plein dents !"</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row no-padding no-margin">
       <div class="col-md-3 citation-text">
+        <p class="cit">"Quand je suis content je vomis..."</p>
       </div>
-      <div class=" col-md-3 photo-ind-cit">
+      <div class="col-md-3 photo-ind-cit">
+        <img class=img-responsive src="./images/test3.png" style=width:100% />
       </div>
-      <div class=" col-md-3 citation-text">
+      <div class="col-md-3 citation-text">
+        <p class="cit">"Akunamatata ! Mais quelle phrase magnifique !"</p>
       </div>
-      <div class=" col-md-3 photo-ind-cit">
+      <div class="col-md-3 photo-ind-cit">
+        <img class=img-responsive src="./images/test4.png" style=width:100% />
       </div>
     </div>
   </div>
 
-  <!--           La description de simplon 2 colones et une image           -->
+  <!-- Formation Simplon -->
 
-  <div class="container-simplon">
+  <div class="container-fluid container-simplon">
     <div class="simplon">
       <div class="row">
+        <div class="col1">
+          <p>
+            Simplon.co est un réseau de fabriques sociales du numérique qui propose des formations intensives pour apprendre à créer des sites web et des applications mobile, et en faire son métier. La formation s’adresse prioritairement aux jeunes de moins de 25
+            ans, non diplômés ou peu diplômés, issus des quartiers populaires et des milieux ruraux, mais également aux demandeurs d’emploi en reconversion ainsi qu’aux femmes et aux séniors, populations insuffisamment représentées dans les métiers techniques.
+            Les formations Simplon.co sont soit gratuites et qualifiantes, soit rémunérées et certifiantes , et bien sûr ouvertes à tous, pourvu que la motivation soit au rendez-vous !
+            <br/>
+            <br/> SIMPLonMARS est une formation courte et intensive vers les métiers du numérique ouverte en priorité aux jeunes issus des quartiers prioritaires de la métropole Aix-Marseille. </p>
+        </div>
         <div class="logo-simplon">
         </div>
-        <div class="col-md-5">
-          <p>Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique
-            convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.</p>
-        </div>
-
-        <div class="col-md-5">
-          <p>Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique
-            convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.</p>
+        <div class="col2">
+          <p>
+            Notre objectif : proposer chaque année à une vingtaine de jeunes une formation intensive et innovante aux métiers du numérique qui repose principalement sur l’autonomie des apprenants.
+            <br/>
+            <br/> C’est un défi : transmettre en un temps court les compétences de base dans les principaux langages de programmation web et former ces jeunes à l’agilité d’esprit de futurs développeurs juniors ou médiateurs numériques…
+            <br/>
+            <br/> L’objectif final est de favoriser le retour ou l’accès à l’emploi de tous les bénéficiaires. Le développement de cette formation à Centrale Marseille permet de faire bénéficier les apprenants d’un environnement stimulant et exigeant, au contact
+            des étudiants centraliens, et de les familiariser aux codes de la vie en entreprise.
+          </P>
         </div>
       </div>
     </div>
   </div>
+
 
   <!--           Photo de groupe            -->
 
@@ -203,7 +212,7 @@
   <footer>
     <div class="reseau">
       <span class="glyphicon glyphicon-envelope" aria-hidden="true"> <a href="mailto:co-code@codec.cocorico">Contact</a></span>
-      <img src="./social.png" />
+      <img src="./images/social.png" />
       <div class="facebook"></div>
       <div class="google"></div>
       <div class="tumblr"></div>
@@ -216,7 +225,6 @@
       <p>Copyright © 2015 team Co.code.codec</p>
     </div>
   </footer>
-
 </body>
 
 </html>
