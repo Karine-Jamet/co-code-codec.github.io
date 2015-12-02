@@ -142,10 +142,33 @@
           position: relative;
           height: 100%;
         }
-        .group-photo > div {
+        .click-karine {
           position: absolute;
-          /* top: ;
-          left: ; */
+          top: 20%;
+          left: 10%;
+          width: 30%;
+          height: 30%;
+        }
+        .click-bruno {
+          position: absolute;
+          top: 20%;
+          left: 30%;
+          width: 30%;
+          height: 30%;
+        }
+        .click-simon {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          width: 30%;
+          height: 30%;
+        }
+        .click-juliette {
+          position: absolute;
+          top: 20%;
+          left: 70%;
+          width: 30%;
+          height: 30%;
         }
         /* Pour Karine */
 
