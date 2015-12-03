@@ -77,6 +77,8 @@ body, html {
 }
 .click-karine:hover > .text {
   visibility: visible;
+  	cursor: pointer;
+	cursor: hand;
 }
 .click-bruno {
   position: absolute;
@@ -95,6 +97,8 @@ body, html {
 }
 .click-bruno:hover > .text {
   visibility: visible;
+  	cursor: pointer;
+	cursor: hand;
 }
 .click-simon {
   position: absolute;
@@ -113,6 +117,8 @@ body, html {
 }
 .click-simon:hover > .text {
   visibility: visible;
+  	cursor: pointer;
+	cursor: hand;
 }
 .click-juliette {
   position: absolute;
@@ -131,6 +137,8 @@ body, html {
 }
 .click-juliette:hover > .text {
   visibility: visible;
+  	cursor: pointer;
+	cursor: hand;
 }
 
 
@@ -622,7 +630,7 @@ footer {
     top: 10px;
     right: 0;
     height: 30px;
-    padding: 2%;
+    padding: 20px;
     margin-bottom: 10%;
   }
   .reseau >.glyphicon {
@@ -641,41 +649,43 @@ footer {
   }
   .facebook {
     position: absolute;
-    top: 23px;
-    right: 321px;
+    top: 20px;
+    right: 318px;
   }
   .google {
     position: absolute;
-    top: 23px;
-    right: 273px;
+    top: 20px;
+    right: 268px;
   }
   .tumblr {
     position: absolute;
-    top: 23px;
-    right: 221px;
+    top: 20px;
+    right: 217px;
   }
   .pinterest {
     position: absolute;
-    top: 23px;
-    right: 173px;
+    top: 20px;
+    right: 168px;
   }
   .twitter {
     position: absolute;
-    top: 23px;
-    right: 123px;
+    top: 20px;
+    right: 118px;
   }
   .reddit {
     position: absolute;
-    top: 23px;
-    right: 73px;
+    top: 20px;
+    right: 68px;
   }
   .linkedin {
     position: absolute;
-    top: 23px;
-    right: 21px;
+    top: 20px;
+    right: 20px;
   }
   .reseau > div:hover {
     background-color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	cursor: hand;
   }
 }
 @media screen and (max-width: 991px) {
