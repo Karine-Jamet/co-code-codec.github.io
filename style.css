@@ -77,6 +77,8 @@ body, html {
 }
 .click-karine:hover > .text {
   visibility: visible;
+  	cursor: pointer;
+	cursor: hand;
 }
 .click-bruno {
   position: absolute;
@@ -95,6 +97,8 @@ body, html {
 }
 .click-bruno:hover > .text {
   visibility: visible;
+  	cursor: pointer;
+	cursor: hand;
 }
 .click-simon {
   position: absolute;
@@ -113,6 +117,8 @@ body, html {
 }
 .click-simon:hover > .text {
   visibility: visible;
+  	cursor: pointer;
+	cursor: hand;
 }
 .click-juliette {
   position: absolute;
@@ -131,6 +137,8 @@ body, html {
 }
 .click-juliette:hover > .text {
   visibility: visible;
+  	cursor: pointer;
+	cursor: hand;
 }
 
 
@@ -212,7 +220,11 @@ section.module.parallax-1 {
 #pola {
   width: 100%;
 }
+
 /*.polaroid-fond {
+=======
+.polaroid-fond {
+>>>>>>> 1dc993543501e14a382fd525136b4748b71d1b28
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
@@ -293,7 +305,7 @@ section.module.parallax-1 {
     position: absolute;
     top: 0;
     left: 102%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 100%;
     width: 100%;
     color: black;
@@ -308,7 +320,7 @@ section.module.parallax-1 {
     left: 0px;
     margin-left: -8px;
     border-top: 8px solid transparent;
-    border-right: 8px solid rgba(255, 255, 255, 0.7);
+    border-right: 8px solid rgba(255, 255, 255, 0.8);
     border-bottom: 8px solid transparent;
     z-index: 2;
   }
@@ -318,7 +330,7 @@ section.module.parallax-1 {
     position: absolute;
     top: 0;
     right: 101%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 100%;
     width: 100%;
     color: black;
@@ -333,7 +345,7 @@ section.module.parallax-1 {
     right: 0px;
     margin-right: -8px;
     border-top: 8px solid transparent;
-    border-left: 8px solid rgba(255, 255, 255, 0.7);
+    border-left: 8px solid rgba(255, 255, 255, 0.8);
     border-bottom: 8px solid transparent;
   }
   .bruno:hover .bruno-descr {
@@ -342,7 +354,7 @@ section.module.parallax-1 {
     position: absolute;
     top: 0;
     left: 102%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 100%;
     width: 100%;
     color: black;
@@ -357,7 +369,7 @@ section.module.parallax-1 {
     left: 0px;
     margin-left: -8px;
     border-top: 8px solid transparent;
-    border-right: 8px solid rgba(255, 255, 255, 0.7);
+    border-right: 8px solid rgba(255, 255, 255, 0.8);
     border-bottom: 8px solid transparent;
     z-index: 2;
   }
@@ -367,7 +379,7 @@ section.module.parallax-1 {
     position: absolute;
     top: 0;
     right: 101%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 100%;
     width: 100%;
     color: black;
@@ -382,7 +394,7 @@ section.module.parallax-1 {
     right: 0px;
     margin-right: -8px;
     border-top: 8px solid transparent;
-    border-left: 8px solid rgba(255, 255, 255, 0.7);
+    border-left: 8px solid rgba(255, 255, 255, 0.8);
     ;
     border-bottom: 8px solid transparent;
   }
@@ -394,7 +406,7 @@ section.module.parallax-1 {
     position: absolute;
     top: 0;
     left: 0%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 100%;
     width: 100%;
     color: black;
@@ -408,7 +420,7 @@ section.module.parallax-1 {
     position: absolute;
     top: 0;
     right: 0%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 100%;
     width: 100%;
     color: black;
@@ -422,7 +434,7 @@ section.module.parallax-1 {
     position: absolute;
     top: 0;
     left: 0%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 100%;
     width: 100%;
     color: black;
@@ -436,7 +448,7 @@ section.module.parallax-1 {
     position: absolute;
     top: 0;
     right: 0%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 100%;
     width: 100%;
     color: black;
@@ -598,9 +610,7 @@ h1 {
 section.module.parallax-2 {
   background-image: url(./images/IMG_0802.JPG);
 }
-* {
-  transition: all .5s ease-in-out;
-}
+
 
 /* footer */
 
@@ -625,7 +635,7 @@ footer {
     top: 10px;
     right: 0;
     height: 30px;
-    padding: 2%;
+    padding: 20px;
     margin-bottom: 10%;
   }
   .reseau >.glyphicon {
@@ -644,41 +654,43 @@ footer {
   }
   .facebook {
     position: absolute;
-    top: 23px;
-    right: 321px;
+    top: 20px;
+    right: 318px;
   }
   .google {
     position: absolute;
-    top: 23px;
-    right: 273px;
+    top: 20px;
+    right: 268px;
   }
   .tumblr {
     position: absolute;
-    top: 23px;
-    right: 221px;
+    top: 20px;
+    right: 217px;
   }
   .pinterest {
     position: absolute;
-    top: 23px;
-    right: 173px;
+    top: 20px;
+    right: 168px;
   }
   .twitter {
     position: absolute;
-    top: 23px;
-    right: 123px;
+    top: 20px;
+    right: 118px;
   }
   .reddit {
     position: absolute;
-    top: 23px;
-    right: 73px;
+    top: 20px;
+    right: 68px;
   }
   .linkedin {
     position: absolute;
-    top: 23px;
-    right: 21px;
+    top: 20px;
+    right: 20px;
   }
   .reseau > div:hover {
     background-color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	cursor: hand;
   }
 }
 @media screen and (max-width: 991px) {
