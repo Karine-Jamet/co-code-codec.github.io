@@ -169,6 +169,38 @@ body, html {
   visibility: visible;
 }
 
+
+/* Text Team */
+
+
+.text-team {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 100%;
+}
+
+.text-team p {
+  text-align: justify;
+  font-size: 18px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+
+}
+
+.text-team h2 {
+  padding-top: 10%;
+  font-size: 12 vw;
+  font-family: 'Caveat', cursive;
+  text-shadow: 0.3vw 0.3vw red;
+
+}
+
+
+
+
+
 /* Team */
 
 .team-name img {
@@ -198,13 +230,6 @@ section.module.parallax {
 }
 section.module.parallax-1 {
   background-image: url("http://teambuilding.com.au/wp-content/uploads/2013/09/what-they-say.jpg");
-}
-.fun h2 {
-  text-align: center;
-  font-size: 800%;
-  font-family: 'Caveat', cursive;
-  padding-top: 20%;
-  text-shadow: 3px 3px white;
 }
 
 /* photo polaroid */
