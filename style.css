@@ -190,6 +190,7 @@ body, html {
 }
 
 .text-team h2 {
+  margin:0;
   padding-top: 10%;
   font-size: 12vw;
   font-family: 'Caveat', cursive;
@@ -502,7 +503,7 @@ section.module.parallax-1 {
   background-position: 50% 50%;
   background-repeat: repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
   background-image: url("images/pattern.png");
 }
 p.citation {
