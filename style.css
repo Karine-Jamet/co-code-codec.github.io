@@ -604,6 +604,9 @@ h1 {
 section.module.parallax-2 {
   background-image: url("http://www.classe47schilick.fr/photos_classe_autres_schilick/classe_1945_19xx_800_maternelle_exen.jpg");
 }
+* {
+  transition: all .5s ease-in-out;
+}
 
 /* footer */
 
