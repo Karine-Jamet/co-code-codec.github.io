@@ -10,7 +10,7 @@ body, html {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: auto;
+  min-height: 100%;
 }
 .no-padding > [class*='col-'] {
   padding-right: 0;
@@ -50,14 +50,13 @@ body, html {
 /* photo de groupe cliquable*/
 
 #groupe {
-  height: 500px;
+  height: 100vw;
+  width: 100%;
 }
 .group-photo {
   background-image: url(./images/groupe-cliquable.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  position: relative;
+  background-size: 100%;
   height: 100%;
   margin-top: 30px;
 }
@@ -491,6 +490,9 @@ p.citation {
   font-size: 30px;
 }
 
+
+
+
 /* citation individuelle */
 
 @media screen and (max-width: 769px) {
@@ -511,7 +513,7 @@ p.citation {
     height: auto;
   }
 
-  .bot-cit{
+  .cit-bot{
     padding-top: 30%;
 
   }
