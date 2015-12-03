@@ -190,6 +190,7 @@ body, html {
 }
 
 .text-team h2 {
+  margin:0;
   padding-top: 10%;
   font-size: 12vw;
   font-family: 'Caveat', cursive;
@@ -502,7 +503,7 @@ section.module.parallax-1 {
   background-position: 50% 50%;
   background-repeat: repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
   background-image: url("images/pattern.png");
 }
 p.citation {
@@ -524,6 +525,31 @@ p.citation {
 }
 
 /* citation individuelle */
+
+@media screen and (max-width: 769px) {
+
+  .cit {
+    color: white;
+    font-size: 32px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+  }
+  .citation-text {
+    background-color: black;
+    height: 50px;
+    vertical-align: middle;
+
+  }
+  .row {
+    height: auto;
+  }
+
+  .bot-cit{
+    padding-top: 30%;
+
+  }
+}
+
 
 .row {
   width: 100%;
@@ -552,7 +578,7 @@ p.citation {
   display: inline-block;
 }
 .cit {
-  margin-top: 130px;
+  margin-top: 30px;
   color: white;
   font-size: 32px;
   font-family: 'Caveat', cursive;
