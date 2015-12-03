@@ -52,56 +52,19 @@ body, html {
   height: 500px;
 }
 .group-photo {
-  background-image: url("https://www.merchantsgroup.com/images/GroupPic.jpg");
+  background-image: url(./images/groupe-cliquable.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
+  margin-top: 30px;
 }
 .click-karine {
   position: absolute;
-  top: 20%;
-  left: 10%;
+  top: 10%;
+  left: 40%;
   width: 30%;
-  height: 30%;
-}
-.click-bruno {
-  position: absolute;
-  top: 20%;
-  left: 30%;
-  width: 30%;
-  height: 30%;
-}
-.click-simon {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  width: 30%;
-  height: 30%;
-}
-.click-juliette {
-  position: absolute;
-  top: 20%;
-  left: 70%;
-  width: 30%;
-  height: 30%;
-}
-#groupe {
-  height: 500px;
-}
-.group-photo {
-  background-image: url("https://www.merchantsgroup.com/images/GroupPic.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 100%;
-}
-.click-karine {
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  width: 30%;
-  height: 30%;
+  height: 80%;
 }
 .click-karine > .text {
   text-align: center;
@@ -116,10 +79,10 @@ body, html {
 }
 .click-bruno {
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 45%;
+  left: 65%;
   width: 30%;
-  height: 30%;
+  height: 80%;
 }
 .click-bruno > .text {
   text-align: center;
@@ -134,10 +97,10 @@ body, html {
 }
 .click-simon {
   position: absolute;
-  top: 20%;
-  left: 50%;
+  top: 40%;
+  left: 20%;
   width: 30%;
-  height: 30%;
+  height: 80%;
 }
 .click-simon > .text {
   text-align: center;
@@ -153,9 +116,9 @@ body, html {
 .click-juliette {
   position: absolute;
   top: 20%;
-  left: 70%;
+  left: 0;
   width: 30%;
-  height: 30%;
+  height: 80%;
 }
 .click-juliette > .text {
   text-align: center;
@@ -230,7 +193,7 @@ section.module.parallax {
   background-size: cover;
 }
 section.module.parallax-1 {
-  background-image: url("http://teambuilding.com.au/wp-content/uploads/2013/09/what-they-say.jpg");
+  background-image: url(./images/IMG_0800.JPG);
 }
 
 /* photo polaroid */
@@ -602,7 +565,7 @@ h1 {
 /* photo the classe Simplon */
 
 section.module.parallax-2 {
-  background-image: url("http://www.classe47schilick.fr/photos_classe_autres_schilick/classe_1945_19xx_800_maternelle_exen.jpg");
+  background-image: url(./images/IMG_0802.JPG);
 }
 
 /* footer */
